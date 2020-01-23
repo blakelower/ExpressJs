@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js add nodemon --dev
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.8/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/test/Desktop/expressjs/package.json: Unexpected token } in JSON at position 745
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "expressjs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/blakelower/ExpressJs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/blakelower/ExpressJs/issues"
+    },
+    "homepage": "https://github.com/blakelower/ExpressJs#readme",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "connect-flash": "^0.1.1",
+      "ejs": "^3.0.1",
+      "express": "^4.17.1",
+      "express-ejs-layouts": "^2.5.0",
+      "express-session": "^1.17.0",
+      "mongoose": "^5.8.9",
+      "passport": "^0.4.1",
+      "passport-local": "^1.0.0"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
